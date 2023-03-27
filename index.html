@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ! css files -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <!-- ! fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Public+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- ! animation on scroll libirary -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- ! website icon -->
+  <link rel="icon" type="image/svg+xml" href="./imgs/shopping-basket.png">
+  <!-- ! fontawesome kit -->
+  <script src="https://kit.fontawesome.com/0dec0de3cc.js" crossorigin="anonymous"></script>
+  <style>
+    
+  </style>
+  <title>FastKart</title>
+</head>
+<body>
+  <!-- ! progress -->
+  <div id="progress"></div>
+  <!-- ! back to top button -->
+  <a href="#" class="back-to-top">
+    <i class="fa fa-angle-up"></i>
+  </a>
+  <!-- ! header -->
+  <div class="header" id="home">
+    <div class="container">
+      <label for="burger" class="burger">
+        <input id="burger" type="checkbox" onclick="check()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="logo">
+        <span >Fast<span class="kart">Kart</span>.</span>
+      </div>
+      <div class="nav-bar" id="nav">
+        <ul>
+          <li><a href="#" id="a">home</a></li>
+          <li><a href="#demo" id="a">demo</a></li>
+          <li><a href="#template-features" id="a">template features</a></li>
+          <li><a href="#pages" id="a">pages</a></li>
+          <li><a href="#core-feature" id="a">core feature</a></li>
+          <li><a href="#documentation" id="a">documentation</a></li>
+        </ul>
+      </div>
+      <div class="buy-now btn">
+        <span>buy now</span>
+        <i class="fa-solid fa-arrow-right fa-sm"></i>
+      </div>
+    </div>
+  </div>
+  <!-- ! floating elemets -->
+  <div class="elements">
+    <img src="./imgs/1.png" class="img-1" alt="">
+    <img src="./imgs/2.png" class="img-2" alt="">
+    <img src="./imgs/3.png" class="img-3" alt="">
+    <img src="./imgs/4.png" class="img-4" alt="">
+    <img src="./imgs/5.png" class="img-5" alt="">
+    <img src="./imgs/6.png" class="img-6" alt="">
+    <img src="./imgs/7.png" class="img-7" alt="">
+    <img src="./imgs/8.png" class="img-8" alt="">
+    <img src="./imgs/9.png" class="img-9" alt="">
+  </div>
+  <!-- ! demo -->
+  <div class="demo" id="#demo">
+    <img src="./imgs/bg.jpg" alt="">
+    <div class="container">
+      <ul class="check">
+        <li>
+          <i class="fa-solid fa-check fa-lg"></i>
+          <h4>Dark Mode</h4>
+        </li>
+        <li>
+          <i class="fa-solid fa-check fa-lg"></i>
+          <h4>Easy RTL Intergration</h4>
+        </li>
+      </ul>
+      <h1>MULTI-PURPOSE ECOMMERCE <br> 
+        <span>GROCERY<img src="./imgs/border.png" alt=""></span> TEMPLATE</h1>
+      <div class="home-buttons">
+        <a href="#" class="btn">Front End</a>
+        <a href="#" class="btn">Back End</a>
+      </div>
+      <div class="home-img">
+        <img src="./imgs/home.png" style="width: 100%;" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- ! home pages -->
+  <div class="home-pages" id="demo">
+    <div class="container">
+      <h4>Uniqe Demos</h4>
+      <h2>Homepages</h2>
+      <p>Beautifull & Unique Demos for all your grocery & bakery Online Stores. Fastkart has all you need to create a perfect website. Fastkart mainly have 5 demos, anyone can use it for different purpose.</p>
+      <div class="buttons">
+        <button>Front End</button>
+        <button>Back end</button>
+        <button>email template</button>
+        <button>invoice template</button>
+      </div>
+      <div class="cards">
+        <div class="card one" data-aos="fade-up" data-aos-delay="100">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <img src="./imgs/card-1.jpeg" alt="">
+          </div>
+        </div>
+        <div class="card two" data-aos="fade-up" data-aos-delay="100">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <img src="./imgs/card-2.jpeg" alt="">
+          </div>
+        </div>
+        <div class="card three" data-aos="fade-up" data-aos-delay="100">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <img src="./imgs/card-3.jpeg" alt="">
+          </div>
+        </div>
+        <div class="card four" data-aos="fade-up" data-aos-delay="100">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <img src="./imgs/card-4.jpeg" alt="">
+          </div>
+        </div>
+        <div class="card five" data-aos="fade-up" data-aos-delay="100">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <img src="./imgs/card-5.jpeg" alt="">
+          </div>
+        </div>
+        <div class="card six" data-aos="fade-up" data-aos-delay="100">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <img src="./imgs/card-6.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! features -->
+  <div class="features" id="template-features">
+    <div class="container">
+      <h3>Why Choose Us?</h3>
+      <h2>Features</h2>
+      <p>Fastkart Html comes up with Creative & elegant Design, clean code with all eCommerce Needs. it comes up with a fully responsive design that will look perfect on different device type & screen sizes.</p>
+      <div class="f-icons">
+        <img src="./imgs/f1.png" class="f1" alt="">
+        <img src="./imgs/f2.png" class="f2" alt="">
+        <img src="./imgs/f3.png" class="f3" alt="">
+      </div>
+      <div class="features-container">
+        <div class="feature-grid st">
+          <div class="column st" data-aos="fade-up" data-aos-delay="100">
+            <div class="imgs">
+              <img src="./imgs/features-2.jpeg" alt="">
+            </div>
+            <div class="text-area">
+              <h6>Color Customization</h6>
+              <h3>Unlimited Colors</h3>
+              <p>Fastkart comes with unlimited possibility with color picker. Choose any color which suits...</p>
+            </div>
+          </div>
+          <div class="column nd" data-aos="fade-up" data-aos-delay="100">
+            <div class="imgs">
+              <img src="./imgs/features-5.jpeg" alt="">
+            </div>
+            <div class="text-area">
+              <h6>Auto resize image option</h6>
+              <h3>Auto Height Adjustable</h3>
+              <p>Fastkart has covered all image size for all your store needs, it has auto resize image option.</p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-grid nd">
+          <div class="column st" data-aos="fade-up" data-aos-delay="100">
+            <div class="imgs">
+              <img src="./imgs/features-1.jpeg" class="main" alt="">
+              <img src="./imgs/features-1-head.png" class="head" alt="">
+              <img src="./imgs/features-1-foot.png" class="foot" alt="">
+            </div>
+            <div class="text-area">
+              <h6>Design your website LTR or RTL</h6>
+              <h3>Header & Footer Builder</h3>
+              <p>Fastkart comes with several headers and footer options for you to use on your website.</p>
+            </div>
+          </div>
+          <div class="column nd" data-aos="fade-up" data-aos-delay="100">
+            <div class="imgs">
+              <img src="./imgs/features-4.jpeg" alt="">
+            </div>
+            <div class="text-area">
+              <h6>Low-light environments</h6>
+              <h3>Dark & Light</h3>
+              <p>useful feature for Night Owls or people who work during the night.</p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-grid rd">
+          <div class="column st" data-aos="fade-up" data-aos-delay="100">
+            <div class="imgs">
+              <img src="./imgs/features-3.jpeg" alt="">
+            </div>
+            <div class="text-area">
+              <h6>Multi language support</h6>
+              <h3>Easy RTL Integration</h3>
+              <p>Fastkart supports multi-languages so its easy to design website on other language.</p>
+            </div>
+          </div>
+          <div class="column nd" data-aos="fade-up" data-aos-delay="100">
+            <div class="imgs">
+              <img src="./imgs/features-6.jpeg" alt="">
+            </div>
+            <div class="text-area">
+              <h6>Optimized for fast loading speed.</h6>
+              <h3>Lazy loading</h3>
+              <p>Lazy Load is delays loading of images in long web pages. Images outside of viewport are not loaded.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! shop & products -->
+  <div class="shop-products">
+    <div class="container">
+      <div class="text">
+        <h2>Shop & Product Pages</h2>
+        <p>Fastkart includes 7 varations of Shop pages & 5 variations of Product pages.</p>
+      </div>
+      <div class="row">
+        <ul>
+          <li>Shop Page</li>
+          <li>Product Page</li>
+          <li>Seller Page</li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-tabs items">
+      <img src="./imgs/product-4-image.jpg" class="item" alt="">
+      <img src="./imgs/product-bottom-thumbnail.jpg" class="item" alt="">
+      <img src="./imgs/product-bundle.jpg" class="item" alt="">
+      <img src="./imgs/product-left-thumbnail.jpg" class="item" alt="">
+      <img src="./imgs/product-right-thumbnail.jpg" class="item" alt="">
+      <img src="./imgs/product-slider.jpg" class="item" alt="">
+      <img src="./imgs/product-sticky.jpg" class="item" alt="">
+    </div>
+  </div>
+  <!-- ! inner pages -->
+  <div class="pages" id="pages">
+    <div class="container">
+      <h3>Dedicated Pages</h3>
+      <h2>Inner Pages</h2>
+      <p>Fastkart Template has more than 15 Perfect And Dedicated pages</p>
+      <div class="row">
+      <div class="inner-pages-image">
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! core feature -->
+  <div class="core-feature" id="core-feature">
+    <div class="container">
+      <h4>Endless Features</h4>
+      <h2>Key Features</h2>
+      <div class="icons">
+        <div class="col-1 col">
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-1.png" alt=""></div>
+            <div class="name">HTML</div>
+          </div>
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-2.png" alt=""></div>
+            <div class="name">CSS 3</div>
+          </div>
+        </div>
+        <div class="col-2 col">
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-3.png" alt=""></div>
+            <div class="name">Boostrap</div>
+          </div>
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-4.png" alt=""></div>
+            <div class="name">Sass</div>
+          </div>
+        </div>
+        <div class="col-3 col">
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-5.png" alt=""></div>
+            <div class="name">W3C Validator</div>
+          </div>
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-6.png" alt=""></div>
+            <div class="name">Unlimited Color</div>
+          </div>
+        </div>
+        <div class="col-4 col">
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-7.png" alt=""></div>
+            <div class="name">Product Zoom</div>
+          </div>
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-8.png" alt=""></div>
+            <div class="name">Gulp</div>
+          </div>
+        </div>
+        <div class="col-5 col">
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-9.png" alt=""></div>
+            <div class="name">Social Link</div>
+          </div>
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-10.png" alt=""></div>
+            <div class="name">Customer Support</div>
+          </div>
+        </div>
+        <div class="col-6 col">
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-11.png" alt=""></div>
+            <div class="name">Google Fonts</div>
+          </div>
+          <div class="core-feature-box">
+            <div class="icon"><img src="./imgs/icon-12.png" alt=""></div>
+            <div class="name">Product Compare</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! documentation -->
+  <div class="documentation" id="documentation">
+    <div class="container">
+      <h2>Love Our Works</h2>
+      <div class="theme-rating">
+        <h3>Please don't forget to rate</h3>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>our e-commerce Templates. Thank you!</h3>
+      </div>
+      <button>Purchase FastKate!</button>
+      <hr>
+      <div class="footer">&copy; 2022 Fastkart Template</div>
+    </div>
+  </div>
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
